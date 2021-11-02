@@ -1,3 +1,4 @@
 window.onload = function() {
-    window.open("https://mobilbank.dnb.bank/");
-  };
+    // similar behavior as clicking on a link
+    window.location.href = "https://mobilbank.dnb.bank/";
+}
