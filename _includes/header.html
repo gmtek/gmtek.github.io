@@ -18,8 +18,8 @@
       </label>
 
       <div class="trigger">
-        <a class="page-link" href="assets/vim/index.html">Vim cheatsheet</a>
-        <a class="page-link" href="assets/keeweb/index.html">Password manager</a>
+        <a class="page-link" href="vim/">Vim cheatsheet</a>
+        <a class="page-link" href="pwd/">Password manager</a>
         {%- for path in page_paths -%}
         {%- assign my_page = site.pages | where: "path", path | first -%}
         {%- if my_page.title -%}
