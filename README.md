@@ -1,1 +1,0 @@
-<https://gmtek.github.io>
