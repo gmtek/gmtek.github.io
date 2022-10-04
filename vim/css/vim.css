@@ -39,8 +39,8 @@
 }
 
 body {
-    background-color: #fff;
-    color: #000;
+    background-color: #000;
+    color: #fff;
     font-family: Georgia, serif;
     font-size: 16px;
     margin: 0
@@ -100,8 +100,8 @@ li {
 }
 
 kbd {
-    background-color: #eee;
-    color: #000;
+    background-color: #1D1D1D;
+    color: #ffff;
     border-radius: 0;
     box-shadow: none;
     font-family: 'Inconsolata', monospace;
@@ -111,14 +111,14 @@ kbd {
 }
 
 .container {
-    background: #fff;
+    background: #000;
     margin: 0 auto;
     width: 100%;
     max-width: 1170px
 }
 
 .well {
-    background: #f8f8f8;
+    background: #1D1D1D;
     border: none;
     border-radius: 0;
     -webkit-box-shadow: none;
@@ -138,8 +138,8 @@ kbd {
 }
 
 .box {
-    background: #f8f8f8;
-    border: 1px solid #e7e7e7;
+    background: #1D1D1D;
+    border: 1px solid #5D5D5D;
     margin: 10px 0;
     width: 100%
 }
@@ -149,7 +149,7 @@ kbd {
 }
 
 .box-header {
-    background: #ebebeb;
+    background: #3D3D3D;
     min-height: 30px;
     padding: 10px
 }
