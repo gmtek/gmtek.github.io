@@ -4,6 +4,10 @@
     box-sizing: border-box
 }
 
+a:link {
+    color: #03DAC6;
+  }
+
 .grid-block {
     clear: both;
     display: -webkit-flex;
