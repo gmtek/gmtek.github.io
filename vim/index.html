@@ -559,7 +559,7 @@
                                         <kbd>&gt;%</kbd> - indent a block with () or {} (cursor on brace)
                                     </li>
                                     <li>
-                                        <kbd>&gt;ib</kbd> - indent inner block with ()
+                                        <kbd>&gt;i{</kbd> or <kbd>&gt;ib</kbd> - indent inner block with ()
                                     </li>
                                     <li>
                                         <kbd>&gt;at</kbd> - indent a block with &lt;&gt; tags
@@ -571,7 +571,13 @@
                                         <kbd>=%</kbd> - re-indent a block with () or {} (cursor on brace)
                                     </li>
                                     <li>
-                                        <kbd>=iB</kbd> - re-indent inner block with {}
+                                        <kbd>=i{</kbd> or <kbd>=iB</kbd> - re-indent "inner block" (inside the braces {})
+                                    </li>
+                                    <li>
+                                        <kbd>=a{</kbd> or <kbd>=aB</kbd> - re-indent "a block" (including the braces {})
+                                    </li>
+                                    <li>
+                                        <kbd>=2a{</kbd> - re-indents 2 blocks (this block and containing block).
                                     </li>
                                     <li>
                                         <kbd>gg=G</kbd> - re-indent entire buffer
